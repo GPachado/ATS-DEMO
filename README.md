@@ -6,7 +6,14 @@ This repository contains a basic implementation of an ATS (Applicant Tracking Sy
 For more information use this link to the Miro Flowchart: https://miro.com/welcomeonboard/STR0Ylo5UlRoZlphcWJYS3pJZExMQjZLVjdwNEJGZDU5cDlJRXpyR1NyUlNSQ3VOWkg1Wm80TDNZWjJNVDYzcHwzNDU4NzY0NTMyMjI4ODcxMTgyfDI=?share_link_id=772736055614
 
 ## Files in the Repository
-- **build_db.py**: Initializes the SQLite database and manages embeddings with the embedding manager.
+- **build_db.py**: Initializes SQLite Database (Core relational storage) and ChromaDB (Vector database for semantic search), also manages embeddings with the embedding manager.
+    .Core Tables
+        candidates - Central repository for all candidate information
+        experiences - Detailed work history tracking
+        education - Educational background records
+        candidate_embeddings - Vector embedding management
+        job_matches - Match results and analytics
+
 - **populate_db.py**: Populates the database with preloaded candidate data.
 - **ats_system.py**: Contains core functionality for managing the ATS, including filtering, ranking, and generating match explanations.
 - **app.py**: Sets up a Flask API endpoint for the ATS system.
