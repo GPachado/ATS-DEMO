@@ -7,12 +7,12 @@ For more information use this link to the Miro Flowchart: https://miro.com/welco
 
 ## Files in the Repository
 - **build_db.py**: Initializes SQLite Database (Core relational storage) and ChromaDB (Vector database for semantic search), also manages embeddings with the embedding manager.
-    .Core Tables
-        candidates - Central repository for all candidate information
-        experiences - Detailed work history tracking
-        education - Educational background records
-        candidate_embeddings - Vector embedding management
-        job_matches - Match results and analytics
+    - Core Tables
+        - candidates - Central repository for all candidate information
+        - experiences - Detailed work history tracking
+        - education - Educational background records
+        - candidate_embeddings - Vector embedding management
+        - job_matches - Match results and analytics
 
 - **populate_db.py**: Populates the database with preloaded candidate data.
 - **ats_system.py**: Contains core functionality for managing the ATS, including filtering, ranking, and generating match explanations.
