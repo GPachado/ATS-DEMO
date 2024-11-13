@@ -1,0 +1,9 @@
+numpy==2.0.2 
+logging  
+Flask==3.0.3 
+chromadb  
+sqlite-utils  
+sentence-transformers==3.2.1 
+datetime  
+requests==2.27.1  # Specific version provided
+
