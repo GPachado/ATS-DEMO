@@ -3,6 +3,8 @@
 ## Introduction
 This repository contains a basic implementation of an ATS (Applicant Tracking System) designed to filter and rank candidates based on skills, experience, and a semantic match with job descriptions. The application uses an SQLite database and a sentence embedding model to enhance candidate-job matching accuracy.
 
+For more information use this link to the Miro Flowchart: https://miro.com/welcomeonboard/STR0Ylo5UlRoZlphcWJYS3pJZExMQjZLVjdwNEJGZDU5cDlJRXpyR1NyUlNSQ3VOWkg1Wm80TDNZWjJNVDYzcHwzNDU4NzY0NTMyMjI4ODcxMTgyfDI=?share_link_id=772736055614
+
 ## Files in the Repository
 - **build_db.py**: Initializes the SQLite database and manages embeddings with the embedding manager.
 - **populate_db.py**: Populates the database with preloaded candidate data.
